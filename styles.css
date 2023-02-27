@@ -23,7 +23,7 @@ nav {
 
 #logo {
   font-family: "Salsa", sans-serif;
-  font-size: 80px;
+  font-size: 90px;
   color: #3f516c;
 }
 
@@ -41,6 +41,34 @@ nav {
   color: #3f516c;
 }
 
-logo::before {
-  content: url(penguin_0.jpg);
+header div {
+  text-align: center;
+}
+header div h1 {
+  color: #1bb8f1;
+  font-family: "Comic Sans MS", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  padding: 40px 80px;
+}
+header div h2 {
+  color: #3f516c;
+  font-family: "Roboto", sans-serif, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  padding: 40px 80px;
+}
+header div h3 {
+  color: #1bb8f1;
+  font-family: "Roboto", sans-serif, sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  padding: 40px 80px;
+}
+header div h4 {
+  color: #3f516c;
+  font-family: "Roboto", sans-serif, sans-serif;
+  font-size: 25px;
+  padding: 40px 80px;
+  font-weight: lighter;
 }

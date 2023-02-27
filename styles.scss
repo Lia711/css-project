@@ -4,7 +4,8 @@ $font-body:"Roboto" , sans-serif;
 $font-display:"Salsa" , sans-serif;
 
 $color-primary: #3f516c;
-$color-secondary: #fefdf8;
+$color-secondary: #1bb8f1;
+$color-background: #fefdf8;
 
 * {
     margin: 0;
@@ -12,7 +13,7 @@ $color-secondary: #fefdf8;
     box-sizing: border-box;
     font-family: $font-body;
     color: $color-primary;
-    background-color: $color-secondary;
+    background-color: $color-background;
   }
 
 a:link,
@@ -30,7 +31,7 @@ nav {
 
 #logo {
     font-family: $font-display;
-    font-size: 80px;
+    font-size: 90px;
     color: $color-primary;
 }
 
@@ -40,7 +41,7 @@ nav {
     height:50%;
     font-size:30px;
     font-weight: bold;
-    background-color: $color-secondary;
+    background-color: $color-background;
     text-align: center;
     border: 2px solid $color-primary;
     padding: 20px 20px;
@@ -48,4 +49,45 @@ nav {
     color: $color-primary;
 }
 
+header {
+    div {
+        text-align: center;
 
+        h1 {
+            color: $color-secondary;
+            font-family: "Comic Sans MS", sans-serif;
+            font-weight: bold;
+            font-size: 50px;
+            padding: 40px 80px;
+        }
+        
+        h2 {
+            color: $color-primary;
+            font-family: $font-body, sans-serif;
+            font-weight: bold;
+            font-size: 40px;
+            padding: 40px 80px;
+        }
+
+        h3 {
+            color: $color-secondary;
+            font-family: $font-body, sans-serif;
+            font-weight: bold;
+            font-size: 35px;
+            padding: 40px 80px;
+        }
+
+        h4 {
+            color: $color-primary;
+            font-family: $font-body, sans-serif;
+            font-size: 25px;
+            padding: 40px 80px;
+            font-weight: lighter;
+        }
+
+    }
+}
+
+//add penguin image to dada logo
+//make launch image bigger
+//continue from get dadvice button
