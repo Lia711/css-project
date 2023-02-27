@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&family=Salsa&display=swap');
+
+$font-body:"Roboto" , sans-serif;
+$font-display:"Salsa" , sans-serif;
+
+$color-primary: #3f516c;
+$color-secondary: #fefdf8;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-body;
+    color: $color-primary;
+    background-color: $color-secondary;
+  }
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+nav {
+    height:20vh;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-family: $font-display;
+    font-size: 80px;
+    color: $color-primary;
+}
+
+#login {
+    display: block;
+    width:25%;
+    height:50%;
+    font-size:30px;
+    font-weight: bold;
+    background-color: $color-secondary;
+    text-align: center;
+    border: 2px solid $color-primary;
+    padding: 20px 20px;
+    border-radius: 10px;
+    color: $color-primary;
+}
+
+

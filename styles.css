@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&family=Salsa&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #3f516c;
+  background-color: #fefdf8;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+nav {
+  height: 20vh;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  font-family: "Salsa", sans-serif;
+  font-size: 80px;
+  color: #3f516c;
+}
+
+#login {
+  display: block;
+  width: 25%;
+  height: 50%;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #fefdf8;
+  text-align: center;
+  border: 2px solid #3f516c;
+  padding: 20px 20px;
+  border-radius: 10px;
+  color: #3f516c;
+}
+
+logo::before {
+  content: url(penguin_0.jpg);
+}
