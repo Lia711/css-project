@@ -85,8 +85,36 @@ header {
             font-weight: lighter;
         }
 
+        a {
+            display: block;
+            margin: auto;
+            margin-top: 40px;
+            margin: 40px;
+            margin-left: auto;
+            margin-right: auto;
+            width:45%;
+            height:65%;
+            font-size:25px;
+            font-weight: bold;
+            background-color: $color-primary;
+            color: white;
+            padding: 20px 20px;
+            border-radius: 10px;
+            
+        }
+
+        h5 {
+            color: $color-primary;
+            font-family: $font-body, sans-serif;
+            font-size: 45px;
+            padding: 40px 80px;
+            font-weight: lighter;
+        }
+
     }
 }
+
+
 
 //add penguin image to dada logo
 //make launch image bigger
