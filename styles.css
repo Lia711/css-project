@@ -51,6 +51,14 @@ header div h1 {
   font-size: 50px;
   padding: 40px 80px;
 }
+header div img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 55%;
+}
 header div h2 {
   color: #3f516c;
   font-family: "Roboto", sans-serif, sans-serif;
@@ -72,7 +80,15 @@ header div h4 {
   padding: 40px 80px;
   font-weight: lighter;
 }
-header div a {
+header div h5 {
+  color: #3f516c;
+  font-family: "Roboto", sans-serif, sans-serif;
+  font-size: 45px;
+  padding: 40px 80px;
+  font-weight: lighter;
+}
+
+.button {
   display: block;
   margin: auto;
   margin-top: 40px;
@@ -83,15 +99,9 @@ header div a {
   height: 65%;
   font-size: 25px;
   font-weight: bold;
+  text-align: center;
   background-color: #3f516c;
   color: white;
   padding: 20px 20px;
   border-radius: 10px;
-}
-header div h5 {
-  color: #3f516c;
-  font-family: "Roboto", sans-serif, sans-serif;
-  font-size: 45px;
-  padding: 40px 80px;
-  font-weight: lighter;
 }
