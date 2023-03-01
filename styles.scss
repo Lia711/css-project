@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&family=Salsa&display=swap');
 
+//set main fonts and colors
 $font-body:"Roboto" , sans-serif;
 $font-display:"Salsa" , sans-serif;
 
@@ -7,23 +8,27 @@ $color-primary: #3f516c;
 $color-secondary: #1bb8f1;
 $color-background: #fefdf8;
 
+//general styling of page
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: $font-body;
+    line-height: 1.8;
     color: $color-primary;
     background-color: $color-background;
   }
 
+//remove underline from visited links
 a:link,
 a:visited {
   text-decoration: none;
 }
 
+//display of top navigation bar with flexbox
 #top-bar {
-    height:20vh;
-    padding: 0 40px;
+    height:20vh; //space from top of the page
+    padding: 0 40px; //space from edge of the page
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,6 +54,7 @@ a:visited {
     color: $color-primary;
 }
 
+//styling all the headers + mobile image
 header {
     div {
         text-align: center;
@@ -58,7 +64,7 @@ header {
             font-family: "Comic Sans MS", sans-serif;
             font-weight: bold;
             font-size: 50px;
-            padding: 40px 80px;
+            padding: 40px 80px; //spacing from page and other elements
         }
 
         img {
@@ -105,12 +111,11 @@ header {
     }
 }
 
-
+//styling get dadvice + sign up buttons
 .button {
         display: block;
-        margin: auto;
-        margin-top: 40px;
-        margin: 40px;
+        margin-top: 40px; //space from rest of the page
+        margin-bottom: 40px;
         margin-left: auto;
         margin-right: auto;
         width:45%;
@@ -120,11 +125,37 @@ header {
         text-align:center;
         background-color: $color-primary;
         color: white;
-        padding: 20px 20px;
+        padding: 20px 20px; //shape of button
         border-radius: 10px;
 
 }
 
+//styling of main content
+.content {
+    width:100%;
+    height:50%;    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between; //even space around elements
+    align-items: center;
+    margin: auto;
+    
+    div {
+        font-size: 30px;
+        max-width:600px; //width of "textbox"
+        padding-left:40px; //make text and image not crash when screen is narrow
+        padding-right:40px;
+        
+    }
+
+    img {
+        width: 270px; //image size
+        
+    }
+    
+}
+
+//styling contact us, privacy, terms links bar
 .bottom-bar {
     width:100%;
     height:50%;    
@@ -135,34 +166,19 @@ header {
     margin-top:120px;
     
     
-    
+    //styling of elements within bar
     div {
         padding: 30px 0px;
         font-size:30px;
         font-weight: bold;
         background-color: #fffcdd;
-        
-        
     }
     
-}
-
-
-
-.content {
-    width:100%;
-    height:50%;    
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    
-    
-     
 }
 
 
 //add penguin image to dada logo
 //style main content
 //bottom nav bar remove highlight
+//fix login button
 
