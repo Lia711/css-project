@@ -16,8 +16,12 @@ $color-background: #fefdf8;
     font-family: $font-body;
     line-height: 1.8;
     color: $color-primary;
-    background-color: $color-background;
+    
   }
+
+body {
+    background-color: $color-background;
+}
 
 //remove underline from visited links
 a:link,
@@ -27,6 +31,7 @@ a:visited {
 
 //display of top navigation bar with flexbox
 #top-bar {
+    
     height:20vh; //space from top of the page
     padding: 0 40px; //space from edge of the page
     display: flex;
@@ -53,6 +58,7 @@ a:visited {
     border-radius: 10px;
     color: $color-primary;
 }
+
 
 //styling all the headers + mobile image
 header {
@@ -133,7 +139,7 @@ header {
 //styling of main content
 .content {
     width:100%;
-    height:50%;    
+    height:50%;   
     display:flex;
     flex-direction: row;
     justify-content: space-between; //even space around elements
@@ -142,28 +148,30 @@ header {
     
     div {
         font-size: 30px;
-        max-width:600px; //width of "textbox"
+        max-width:500px; //width of "textbox"
         padding-left:40px; //make text and image not crash when screen is narrow
         padding-right:40px;
         
     }
 
     img {
-        width: 270px; //image size
+        width: 200%; //image size
         
     }
     
 }
 
 //styling contact us, privacy, terms links bar
+
 .bottom-bar {
+    margin-top:140px;
     width:100%;
     height:50%;    
     display:flex;
     flex-direction: column;
     align-items: center;
     background-color: #fffcdd;
-    margin-top:120px;
+    
     
     
     //styling of elements within bar
