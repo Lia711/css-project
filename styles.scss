@@ -149,14 +149,12 @@ header {
     div {
         font-size: 30px;
         max-width:500px; //width of "textbox"
-        padding-left:40px; //make text and image not crash when screen is narrow
+        padding-left:40px; 
         padding-right:40px;
-        
     }
 
     img {
-        width: 200%; //image size
-        
+        width: 200%; //image size  
     }
     
 }
@@ -187,6 +185,6 @@ header {
 
 //add penguin image to dada logo
 //style main content
-//bottom nav bar remove highlight
+
 
 
