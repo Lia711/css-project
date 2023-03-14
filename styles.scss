@@ -19,6 +19,7 @@ $color-background: #fefdf8;
     
   }
 
+//overall color of page   
 body {
     background-color: $color-background;
 }
@@ -133,13 +134,12 @@ header {
         color: white;
         padding: 20px 20px; //shape of button
         border-radius: 10px;
-
 }
 
 //styling of main content
 .content {
     width:100%;
-    height:50%;   
+    height:50%; 
     display:flex;
     flex-direction: row;
     justify-content: space-between; //even space around elements
@@ -148,19 +148,18 @@ header {
     
     div {
         font-size: 30px;
-        max-width:500px; //width of "textbox"
+        max-width:500px; 
         padding-left:40px; 
-        padding-right:40px;
+        padding-right:40px; 
     }
 
     img {
-        width: 200%; //image size  
+        width: 250px; //image size 
+        height: 250px;
     }
-    
 }
 
 //styling contact us, privacy, terms links bar
-
 .bottom-bar {
     margin-top:140px;
     width:100%;
@@ -170,8 +169,6 @@ header {
     align-items: center;
     background-color: #fffcdd;
     
-    
-    
     //styling of elements within bar
     div {
         padding: 30px 0px;
@@ -179,12 +176,4 @@ header {
         font-weight: bold;
         background-color: #fffcdd;
     }
-    
 }
-
-
-//add penguin image to dada logo
-//style main content
-
-
-

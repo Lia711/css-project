@@ -125,7 +125,8 @@ header div h5 {
   padding-right: 40px;
 }
 .content img {
-  width: 200%;
+  width: 250px;
+  height: 250px;
 }
 
 .bottom-bar {
